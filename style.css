@@ -135,8 +135,12 @@
 body {
     background: #0f0f0f;
 }
-.wrapper {
+.main {
+    width: 1920px;
+    height: 1100px;
     position: relative;
+}
+.wrapper {
     width: 1920px;
     height: 100%;
     display: flex;
@@ -145,7 +149,7 @@ body {
 }
 .mainTitleText {
     position: absolute;
-    top: 750px;
+    top: 50px;
     left: 700px;
 }
 .mainTitleText h1 {
@@ -164,7 +168,7 @@ body {
 }
 .mainMenu {
     position: absolute;
-    top: 1000px;
+    top: 300px;
     left: 400px;
 }
 .menuRow {
@@ -220,3 +224,91 @@ body {
 .menuRowPartButton a:hover {
     box-shadow: 0 0 15px 2px;
 }
+.news {
+    position: relative;
+}
+.newsTitle {
+    width: 1920px;
+    text-align: center;
+    color: white;
+}
+.newsTitle h1 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+.newsContent{
+    position: absolute;
+    top: 90px;
+    left: 375px;
+    display: flex;
+    width: 1150px;
+}
+.newsContentDate {
+    margin-top: 20px;
+    display: flex;
+    color: white;
+}
+.newsContentDate p {
+    margin-left: 10px;
+}
+.newsContentDate img {
+    margin-left: 20px;
+}
+.newsContentFirst{
+    width: 50%;
+}
+.newsContentFirst h2 {
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+}
+.newsContentFirst img {
+    margin-left: 10px;
+}
+.newsContentFirst, p {
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+}
+.newsContentButton {
+    margin-top: 2%;
+}
+.newsContentButton a {
+    font-size: 24px;
+    z-index: 5;
+    color: white;
+    text-decoration: none;
+    background: #f32121;
+    padding: 1% 2%;
+    border-radius: 30px;
+    box-shadow: 0 0 25px 2px rgba(255, 35, 35, 0.5);;
+}
+.newsContentSecond {
+    margin-left: 20px;
+    width: 50%;
+}
+.newsContentSecond-1, .newsContentSecond-2 {
+    display: flex;
+}
+.newsContentSecondImg {
+    width: 50%;
+    margin-top: 20px;
+
+}
+.newsContentSecondText h2 {
+    margin-left: 20px;
+    margin-top: 15px;
+    color: white;
+}
+.newsContentSecondText p {
+    margin-left: 20px;
+    margin-top: 15px;
+    color: white;
+}
+.newsContentButton {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
